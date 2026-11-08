@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | MyHosting</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="." class="logo"><img src="img/logo.png">MyHosting</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenido">
+        <section class="container">
+            <h1>Contacto</h1>
+            <p class="intro">
+                Escríbenos y te responderemos en menos de 24 horas.
+            </p>
+
+            <div class="dos-columnas">
+                <!-- Formulario -->
+                <form class="formulario" action="#" method="post">
+                    <div class="campo">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre"
+                               placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="tucorreo@ejemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto">
+                            <option value="">-- Selecciona una opción --</option>
+                            <option value="presupuesto">Pedir presupuesto</option>
+                            <option value="soporte">Soporte técnico</option>
+                            <option value="otros">Otros</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5"
+                                  placeholder="Cuéntanos en qué podemos ayudarte"
+                                  required></textarea>
+                    </div>
+
+                    <div class="campo-check">
+                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                        <label for="privacidad">
+                            Acepto la política de privacidad
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-ancho">Enviar mensaje</button>
+                </form>
+
+                <!-- Datos de contacto -->
+                <aside class="caja-destacada">
+                    <h2>Información</h2>
+                    <p><strong>Dirección</strong><br>
+                       Calle Mayor 123<br>28001 Madrid</p>
+                    <p><strong>Teléfono</strong><br>
+                       <a href="tel:+34910000000">+34 910 00 00 00</a></p>
+                    <p><strong>Email</strong><br>
+                       <a href="mailto:info@MyHosting.com">info@MyHosting.com</a></p>
+                    <p><strong>Horario</strong><br>
+                       Lunes a viernes<br>9:00 – 18:00</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MyHosting. Todos los derechos reservados.</p>
+            <p>
+                <a href="privacidad.html">Política de privacidad</a> |
+                <a href="#">Términos de uso</a> |
+                <a href="contacto.html">Contacto</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
