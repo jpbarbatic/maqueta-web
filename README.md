@@ -1,7 +1,7 @@
 # Web de ejemplo
 
 ## Instalación manual
-Copiar el contenido de la carpeta `public` en la carpeta del hosting
+Copiar el contenido de la carpeta `web` en la carpeta del hosting
 
 ## Instalación automática
 
