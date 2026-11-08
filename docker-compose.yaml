@@ -1,0 +1,8 @@
+services:
+  apache:
+    image: php:8.2-apache
+    restart: always
+    ports:
+      - 10000:80
+    volumes:
+      - ./web:/var/www/html

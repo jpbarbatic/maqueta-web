@@ -1,0 +1,12 @@
+{
+  "name": "maqueta-web",
+  "version": "1.0.0",
+  "description": "Copiar el contenido de la carpeta `web` en la carpeta del hosting usando FTP, SFTP, etc.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "php -S localhost:12000 -t web",
+    "sync": "./sync_ftp.sh"
+  }
+}
