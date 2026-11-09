@@ -7,6 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "php -S localhost:12000 -t web",
-    "sync": "./sync_ftp.sh"
+    "sync": "./sync_ftp.sh",
+    "up": "podman-compose up -d",
+    "down": "podman-compose down"
   }
 }
